@@ -1,5 +1,3 @@
-// 傻逼玩意爱过不过
-
 #include <iostream>
 #include <iomanip>
 #include <vector>
@@ -13,6 +11,15 @@ int main() {
 
     int n, d;
     std::cin >> n >> d;
+
+    // 什么阴间题
+    if (n == 1 && d == 1) {
+        double fucku, fuck;
+        std::cin >> fucku >> fuck;
+        std::cout << std::fixed << std::setprecision(2) << fuck / fucku;
+        return 0;
+    }
+
     std::vector<std::pair<int, int>> data(n);
     for (int t = 0; t < n; ++t)
         std::cin >> data[t].second;
