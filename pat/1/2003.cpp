@@ -12,7 +12,7 @@ int main() {
     int n, d;
     std::cin >> n >> d;
 
-    // 什么阴间题
+    // 啥玩意啊
     if (n == 1 && d == 1) {
         double fucku, fuck;
         std::cin >> fucku >> fuck;
